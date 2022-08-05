@@ -1,16 +1,32 @@
 public class Main {
     public static void main(String[] args) {
-int deliveryDistance =95;
-int deliveridays= 1;
+int month= 12;
+switch (month) {
+    case 12:
+    case 1:
+    case 2:
+        System.out.println("Зима");
+        break;
+    case 3:
+    case 4:
+    case 5:
+        System.out.println("Весна");
+        break;
+    case 6:
+    case 7:
+    case 8:
+        System.out.println("Лето");
+        break;
+    case 9:
+    case 10:
+    case 11:
+    System.out.println("Осень");
+    break;
+    default:
+        System.out.println("Не корректный месяц");
+}
+    }
+}
 
-        if ( deliveryDistance > 20) {
-            deliveridays++;
-            if ( deliveryDistance > 60) {
-                deliveridays++;
-            System.out.println("Потребуется дней: "+ deliveridays );
-    }
-}
-    }
-}
 
 
